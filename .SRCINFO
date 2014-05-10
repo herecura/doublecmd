@@ -1,6 +1,6 @@
 pkgbase = doublecmd
 	pkgver = 0.5.9
-	pkgrel = 1
+	pkgrel = 2
 	url = http://doublecmd.sourceforge.net/
 	install = doublecmd.install
 	arch = i686
