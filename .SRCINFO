@@ -1,5 +1,5 @@
 pkgbase = doublecmd
-	pkgver = 0.6.2
+	pkgver = 0.6.3
 	pkgrel = 1
 	url = http://doublecmd.sourceforge.net/
 	install = doublecmd.install
@@ -13,10 +13,10 @@ pkgbase = doublecmd
 	optdepends = p7zip: support for 7zip archives
 	optdepends = libunrar: support for rar archives
 	provides = doublecmd
-	source = http://downloads.sourceforge.net/project/doublecmd/Double%20Commander%20Source/doublecmd-0.6.2-src.tar.gz
+	source = http://downloads.sourceforge.net/project/doublecmd/Double%20Commander%20Source/doublecmd-0.6.3-src.tar.gz
 	source = http://downloads.sourceforge.net/project/doublecmd/Double%20Commander%20Source/doublecmd-help-0.6.0-src.tar.gz
 	source = http://www.herecura.be/files/lazarus-20140321-2.tar.gz
-	sha256sums = 76564e927b9bf372dec585df6a65880cfd6ff06086f8c56e7bcf9bbde960e3bb
+	sha256sums = c9abfa1e878a8ed2df20db46111b1e7055e40e0c548df51ed1d39c9a3c3e3575
 	sha256sums = d50a58f0e8c25c07720f2afd987213f330dfce268e2aef349d1da3de2eef1c39
 	sha256sums = 16560ad7403ffbee1800384768828e1fad924d03068c6248b68a78c393fc4e20
 
