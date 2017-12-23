@@ -5,9 +5,9 @@
 
 pkgbase=doublecmd
 pkgname=('doublecmd-gtk2' 'doublecmd-qt4' 'doublecmd-qt5')
-pkgver=0.8.0
+pkgver=0.8.1
 _helpver=0.6.0
-pkgrel=2
+pkgrel=1
 url="http://doublecmd.sourceforge.net/"
 arch=('x86_64')
 license=('GPL')
@@ -19,10 +19,10 @@ optdepends=(
 	'libunrar: support for rar archives'
 )
 source=(
-	"http://downloads.sourceforge.net/project/$pkgbase/Double%20Commander%20Source/$pkgbase-$pkgver-src.tar.gz"
-	"http://downloads.sourceforge.net/project/$pkgbase/Double%20Commander%20Source/$pkgbase-help-$_helpver-src.tar.gz"
+	"https://downloads.sourceforge.net/project/$pkgbase/Double%20Commander%20Source/$pkgbase-$pkgver-src.tar.gz"
+	"https://downloads.sourceforge.net/project/$pkgbase/Double%20Commander%20Source/$pkgbase-help-$_helpver-src.tar.gz"
 )
-sha512sums=('ef5f2202c74ca5963cfe748a2ae469cda7010a6506480c8504e43642fc4dbae076f301a673cbb40f37efb300640b63d6c09d24de91e0976912c5b867e32b99a1'
+sha512sums=('8e80ba5914362572d77403e054873665dcf9dcf2dd9258acd07888aa5dfa05e7b6537e9e7750f26eadb09091915bd314f859d29c0527bb3aa45e936763a664d4'
             '2fe7a58e317c93baf4cfcb9cfc660647d71f4454eef588a512a9b9e8467477a691ec1061f014a42dff4ae0a0ba0600824b33c12c950fe1e26fba2a51122404bb')
 
 prepare() {
