@@ -5,21 +5,21 @@
 pkgbase=doublecmd
 pkgname=('doublecmd-gtk2' 'doublecmd-qt5')
 pkgver=0.9.0
-pkgrel=1
+pkgrel=2
 url="http://doublecmd.sourceforge.net/"
 arch=('x86_64')
 license=('GPL')
 provides=("$pkgbase")
 makedepends=('lazarus' 'qt5pas' 'gtk2')
 optdepends=(
-	'lua51: scripting'
+    'lua: scripting'
     'unzip: support extracting zip archives'
     'zip: suport packing zip archives'
-	'p7zip: support for 7zip archives'
-	'libunrar: support for rar archives'
+    'p7zip: support for 7zip archives'
+    'libunrar: support for rar archives'
 )
 source=(
-	"https://downloads.sourceforge.net/project/$pkgbase/Double%20Commander%20Source/$pkgbase-$pkgver-src.tar.gz"
+    "https://downloads.sourceforge.net/project/$pkgbase/Double%20Commander%20Source/$pkgbase-$pkgver-src.tar.gz"
 )
 sha512sums=('79dc348d9b44581cf353e5f6de2a56aa858d22429a6e66b40cff4269ebb34c4d8e5f5c3c5c07fb8779106c0486a938360198af78633b0aec170fb9b9249841e8')
 
@@ -47,7 +47,7 @@ build() {
 }
 
 package_doublecmd-gtk2() {
-    pkgdesc="twin-panel (commander-style) file manager (GTK)"
+    pkgdesc="twin-panel (commander-style) file manager (GTK2)"
     depends=('gtk2' 'desktop-file-utils' 'hicolor-icon-theme' 'shared-mime-info')
     conflicts=('doublecmd-qt5')
     cd "$srcdir/$pkgbase-gtk"
